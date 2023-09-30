@@ -27,8 +27,6 @@ fetch(API_URL)
             const tbody = document.querySelector('tbody');
             tbody.appendChild(tr);
 
-            console.log(Number(linhaDoExcel.valor));
-
             total = total + Number(linhaDoExcel.valor.replace(',','.'));
             const span = document.querySelector('span');
             span.innerText = total;
