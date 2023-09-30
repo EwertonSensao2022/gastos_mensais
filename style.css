@@ -7,19 +7,23 @@
     gap:10px;
 }
 p{
-    color: rgb(37, 28, 28);
+    color: rgb(255, 7, 7);
 }
 #input1{
     padding: 10px;
-    width: 180px;
+    width: 250px;
 }
 #input2{
+    margin-top: 10px;
     padding: 10px;
-    width: 80px;
+    width: 250px;
 }
 #salvar{
     margin: 10px;
 }
 #reset{
-    margin-top: 50px;
+    margin-top: 100px;
+    width: 110px;
+    background-color: red;
+    color: aliceblue;
 }
