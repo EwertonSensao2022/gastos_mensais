@@ -8,10 +8,11 @@
     gap:10px;
 }
 p{
-    color: red;
+    color: rgb(51, 10, 235);
 }
 input{
     padding: 10px;
+    width: 100px;
 
 }
 #salvar{
