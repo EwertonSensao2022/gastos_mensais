@@ -1,6 +1,19 @@
+*{
+    margin: 10px;
+    
+}
 #container{
-    width: 50px;
+    width: 300px;
+    display: flex;
+    gap:10px;
 }
 p{
     color: red;
+}
+input{
+    padding: 10px;
+
+}
+#salvar{
+    display: block;
 }
