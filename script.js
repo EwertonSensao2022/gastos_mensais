@@ -29,7 +29,7 @@ fetch(API_URL)
 
             total = total + Number(linhaDoExcel.valor.replace(',','.'));
             const span = document.querySelector('span');
-            span.innerText = total;
+            span.innerText = total.toFixed(2);
         })
     })
 
