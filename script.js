@@ -4,7 +4,7 @@ let btn = document.querySelector('button');
 let reset = document.querySelector('#reset');
 
 
-const API_URL = "https://sheet.best/api/sheets/1488905e-6790-46b4-aead-7298d87e6a8c";
+const API_URL = "https://sheet.best/api/sheets/bc66cc5c-3999-441c-81b9-b2f2884e8b63";
 
 let total = 0;
 
