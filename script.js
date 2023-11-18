@@ -3,7 +3,6 @@ let input2 = document.querySelector('#input2');
 let btn = document.querySelector('button');
 let reset = document.querySelector('#reset');
 
-
 const API_URL = "https://sheetdb.io/api/v1/3hru2jkfz5rpi";
 
 let total = 0;
