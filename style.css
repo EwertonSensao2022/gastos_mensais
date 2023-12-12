@@ -20,6 +20,11 @@ p{
 strong{
     margin: 10px;
 }
+button{
+    border: none;
+    background-color: transparent;
+    
+}
 #salvar{
     margin: 10px;
 }
