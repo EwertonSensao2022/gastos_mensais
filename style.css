@@ -7,13 +7,18 @@ p{
     color: rgb(255, 7, 7);
 }
 #input1{
+    margin: 10px 10px 5px;
     padding: 10px;
     width: 280px;
 }
 #input2{
+    margin: 10px ;
     margin-top: 10px;
     padding: 10px;
     width: 280px;
+}
+strong{
+    margin: 10px;
 }
 #salvar{
     margin: 10px;
