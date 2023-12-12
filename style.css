@@ -23,16 +23,19 @@ strong{
 button{
     border: none;
     background-color: transparent;
-    
 }
 #salvar{
     margin: 10px;
+    border: 1px solid ;
+    background-color: rgba(127, 129, 128, 0.342);
 }
 #reset{
     margin-top: 200px;
     width: 110px;
     background-color: red;
     color: aliceblue;
+    border: 1px solid black;
+    text-shadow: 1px 1px 1px;
 }
 #title{
     background-color: aqua;
