@@ -31,15 +31,18 @@ const editar = (id, value) => {
 }
 
 const deletar = (id) => {
+    if(window.confirm("deseja deletar isso?")) {
+        fetch(API_URL + `/id/${id}`, {
+            method: 'DELETE',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            }
+        })
+          .then(() => location.reload())
+      }
     // console.log(id)
-    fetch(API_URL + `/id/${id}`, {
-    method: 'DELETE',
-    headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json'
-    }
-})
-  .then(() => location.reload())
+    
 }
 
 fetch(API_URL)
@@ -97,11 +100,13 @@ btn.addEventListener('click', ()=>{
 })
 
 reset.addEventListener('click', () => {
-    fetch(API_URL+'/oque/**', {
-        method: 'delete'
-    })
-    .then(()=>{
-        location.reload();
-    })
+    if(window.confirm("deseja deletar isso?")) {
+        fetch(API_URL+'/oque/**', {
+            method: 'delete'
+        })
+        .then(()=>{
+            location.reload();
+        })
+    }
 });
 
