@@ -7,7 +7,7 @@ const uid = function(){
     return Date.now().toString(36) + Math.random().toString(36).substr(2);
 }
 
-const API_URL = "https://sheetdb.io/api/v1/3hru2jkfz5rpi";
+const API_URL = "https://sheetdb.io/api/v1/d34faqve5mpbh";
 
 let total = 0;
 
